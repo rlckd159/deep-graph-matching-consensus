@@ -124,6 +124,12 @@ class ValidPairDataset(torch.utils.data.Dataset):
             edge_index_t=data_t.edge_index,
             edge_attr_t=data_t.edge_attr,
             y=y,
+            name_s=data_s.name,
+            name_t=data_t.name,
+            pos_s=data_s.pos,
+            pos_t=data_t.pos,
+            y_s=data_s.y,
+            y_t=data_t.y,
             num_nodes=None,
         )
 

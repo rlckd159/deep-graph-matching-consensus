@@ -4,6 +4,7 @@ build/
 dist/
 .cache/
 data/
+data.zip
 .eggs/
 *.egg-info/
 .coverage
